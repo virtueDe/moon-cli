@@ -1,0 +1,19 @@
+{
+  "name": "@v50/moon-cli",
+  "version": "1.0.0",
+  "description": "通用 cli 脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtueDe/moon-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virtueDe/moon-cli/issues"
+  },
+  "homepage": "https://github.com/virtueDe/moon-cli#readme"
+}
