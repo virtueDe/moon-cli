@@ -2,6 +2,10 @@
   "name": "@v50/moon-cli",
   "version": "1.0.0",
   "description": "通用 cli 脚手架",
+  "bin": {
+    "moon": "./bin/moon",
+    "moon-cli": "./bin/moon"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/virtueDe/moon-cli/issues"
   },
-  "homepage": "https://github.com/virtueDe/moon-cli#readme"
+  "homepage": "https://github.com/virtueDe/moon-cli#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "download-git-repo": "^3.0.2",
+    "execa": "^6.1.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^9.0.2",
+    "ora": "^6.1.2"
+  }
 }

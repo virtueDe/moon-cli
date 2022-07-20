@@ -22,6 +22,8 @@ npm publish --access public
 
 <https://juejin.cn/post/6844903999758401549>
 
+<https://github.com/woai3c/mini-cli>
+
 ### 模版
 
 <https://github.com/antfu/vitesse>
