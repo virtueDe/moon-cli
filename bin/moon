@@ -4,22 +4,20 @@ const program = require("commander");
 const figlet = require("figlet");
 
 program
-  .command("cr-proj <project-name>") // 增加创建指令
-  .description("新建项目模版") // 添加描述信息
+  .command("cr <project-name>") // 增加创建指令
+  .description("创建项目模版") // 添加描述信息
   .option("-f, --force", "overwrite target directory if it exists") // 强制覆盖
-  .action((name, option, _commandOptions) => {
-    // console.log(name, option, _commandOptions._name);
-    // 处理用户输入create 指令附加的参数
-    require("../lib/create")(name, option, _commandOptions._name);
+  .action((name, option) => {
+    require("../lib/create")(name, option);
   });
 
-program
-  .command("cr-lib <project-name>") // 增加创建指令
-  .description("新建库模版") // 添加描述信息
-  .option("-f, --force", "overwrite target directory if it exists") // 强制覆盖
-  .action((name, option, _commandOptions) => {
-    require("../lib/create")(name, option, _commandOptions._name);
-  });
+// program
+//   .command("cr-lib <project-name>") // 增加创建指令
+//   .description("新建库模版") // 添加描述信息
+//   .option("-f, --force", "overwrite target directory if it exists") // 强制覆盖
+//   .action((name, option, _commandOptions) => {
+//     require("../lib/create")(name, option, _commandOptions._name);
+//   });
 
 // program
 //   .command("config [value]")
