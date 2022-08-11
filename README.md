@@ -2,28 +2,30 @@
 
 通用 cli 脚手架
 
-```js
-npm init --scope=<your_org_name> // npm init --scope=v50 
+脚手架模版地址: <https://github.com/virtueDe/moon-cli>
 
-npm publish --access public
+# 使用
+
+## 安装
+
+```js
+npm install -g @v50/moon-cli
 ```
 
-## Why is the name of the organization v50？
+## 使用
 
-起因来源于肯德基的疯狂星期四，群里各种段子满天飞，但是最后一句话都是V我50吃kfc
+```js
+moon cr <project-name>
+```
 
-## 参考
+![alt](./demo.jpg)
 
-### 文章链接
+<!-- ```js
+npm init --scope=<your_org_name> // npm init --scope=v50
 
-<https://juejin.cn/post/7077717940941881358#heading-34>
+npm publish --access public
+``` -->
 
-<https://juejin.cn/post/6844903896163303438>
+<!-- ## Why is the name of the organization v50？
 
-<https://juejin.cn/post/6844903999758401549>
-
-<https://github.com/woai3c/mini-cli>
-
-### 模版
-
-<https://github.com/antfu/vitesse>
+起因来源于肯德基的疯狂星期四，群里各种段子满天飞，但是最后一句话都是V我50吃kfc -->
