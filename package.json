@@ -1,7 +1,7 @@
 {
   "name": "@v50/moon-cli",
-  "version": "1.0.0",
-  "description": "通用 cli 脚手架",
+  "version": "0.0.1",
+  "description": "cl,脚手架,moon",
   "bin": {
     "moon": "./bin/moon",
     "moon-cli": "./bin/moon"
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/virtueDe/moon-cli.git"
   },
-  "author": "",
+  "author": "virtueDe",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/virtueDe/moon-cli/issues"
