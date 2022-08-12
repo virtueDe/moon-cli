@@ -1,6 +1,6 @@
 {
   "name": "@v50/moon-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "cl,脚手架,moon",
   "bin": {
     "moon": "./bin/moon",
